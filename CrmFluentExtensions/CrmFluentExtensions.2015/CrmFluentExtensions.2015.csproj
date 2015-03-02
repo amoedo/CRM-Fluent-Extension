@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CAE27B7A-03CF-49F9-ABB2-F6ECAB4765C2}</ProjectGuid>
+    <ProjectGuid>{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CrmFluentExtensions</RootNamespace>
     <AssemblyName>CrmFluentExtensions</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xrm.Sdk">
-      <HintPath>..\Referenced Assemblies\CRM 2013\Microsoft.Xrm.Sdk.dll</HintPath>
+      <HintPath>..\Referenced Assemblies\CRM 2015\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,13 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\DataCache.cs" />
-    <Compile Include="Data\DataCacheItem.cs" />
-    <Compile Include="Data\IDataCacheItem.cs" />
-    <Compile Include="FluentChainAction.cs" />
-    <Compile Include="FluentChainActionWithReturn.cs" />
-    <Compile Include="FluentChainACtionWithReturnExtensions.cs" />
-    <Compile Include="FluentOrganizationService.cs" />
+    <Compile Include="..\CrmFluentExtensions\Data\DataCache.cs">
+      <Link>Data\DataCache.cs</Link>
+    </Compile>
+    <Compile Include="..\CrmFluentExtensions\Data\DataCacheItem.cs">
+      <Link>Data\DataCacheItem.cs</Link>
+    </Compile>
+    <Compile Include="..\CrmFluentExtensions\Data\IDataCacheItem.cs">
+      <Link>Data\IDataCacheItem.cs</Link>
+    </Compile>
+    <Compile Include="..\CrmFluentExtensions\FluentChainAction.cs">
+      <Link>FluentChainAction.cs</Link>
+    </Compile>
+    <Compile Include="..\CrmFluentExtensions\FluentChainActionWithReturn.cs">
+      <Link>FluentChainActionWithReturn.cs</Link>
+    </Compile>
+    <Compile Include="..\CrmFluentExtensions\FluentChainACtionWithReturnExtensions.cs">
+      <Link>FluentChainACtionWithReturnExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\CrmFluentExtensions\FluentOrganizationService.cs">
+      <Link>FluentOrganizationService.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

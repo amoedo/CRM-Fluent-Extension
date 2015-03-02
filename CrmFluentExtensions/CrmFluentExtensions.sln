@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions", "CrmF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.UnitTest", "CrmFluentExtensions.UnitTest\CrmFluentExtensions.UnitTest.csproj", "{9C880DEF-242B-41C9-A20A-34795FAF3B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.Examples", "CrmFluentExtensions.Examples\CrmFluentExtensions.Examples.csproj", "{656B123A-F559-4FA8-AEAF-BC52354028DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.2015", "CrmFluentExtensions.2015\CrmFluentExtensions.2015.csproj", "{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
