@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.Example
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.2015", "CrmFluentExtensions.2015\CrmFluentExtensions.2015.csproj", "{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packaging", "Packaging", "{48C7B1E8-5083-4AA9-B52D-EC8B07FD10FE}"
+	ProjectSection(SolutionItems) = preProject
+		CrmFluentExtensions.nuspec = CrmFluentExtensions.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

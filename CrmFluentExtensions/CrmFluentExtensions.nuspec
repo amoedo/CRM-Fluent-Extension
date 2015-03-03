@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CrmFluentExtensions</id>
+    <version>1.0.1</version>
+    <title>Dynamics CRM Fluent Extensions</title>
+    <authors>Marco Amoedo</authors>
+    <owners>CrmFluentExtensions</owners>  
+    <projectUrl>https://github.com/amoedo/CRM-Fluent-Extension</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A set of extension to the CRM SDK to enable a more fluent interface. Works with the 2011, 2013 and 205 SDKs</description>
+    <tags>CRM Dynamics MSCRM Fluent</tags>
+    <releaseNotes>This package will detect the target framework and install the right version. Yous should have Microsoft.Xrm.Sdk already referenced in your project</releaseNotes>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime.Serialization"/>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="CrmFluentExtensions\bin\Release\CrmFluentExtensions.dll" target="lib" />
+    <file src="CrmFluentExtensions\bin\Release\CrmFluentExtensions.xml" target="lib" />
+    <file src="CrmFluentExtensions.2015\bin\Release\CrmFluentExtensions.dll" target="lib\net452" />
+    <file src="CrmFluentExtensions.2015\bin\Release\CrmFluentExtensions.xml" target="lib\net452" />
+  </files>
+</package>

@@ -195,6 +195,13 @@ namespace CrmFluentExtensions
             });
         }
 
+        /// <summary>
+        /// Checks the cache for an existing result for the key and returns that value instead.
+        /// If the cache value is not present or expired the execution continues and the result is saved 
+        /// for future calls using the Time to Live specified by default on the <see cref="T:CrmFluentExtensions.Data.DataCache"/>
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public FluentChainActionWithReturn<T> Cache(string key)
         {
             return this.Combine(work =>
@@ -212,6 +219,13 @@ namespace CrmFluentExtensions
             });
         }
 
+        /// <summary>
+        /// Checks the cache for an existing result for the key and returns that value instead.
+        /// If the cache value is not present or expired the execution continues and the result is saved 
+        /// for future calls using the Time to Live specified
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public FluentChainActionWithReturn<T> Cache(string key, TimeSpan timeToLeave)
         {
             return this.Combine(work =>
@@ -461,7 +475,7 @@ namespace CrmFluentExtensions
         }
 
         /// <summary>
-        /// Finalises the chain by execution the Func<>
+        /// Finalises the chain by execution the base function
         /// </summary>
         /// <returns></returns>
         public T Do()

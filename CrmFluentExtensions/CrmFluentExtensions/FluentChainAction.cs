@@ -365,7 +365,7 @@ namespace CrmFluentExtensions
         }
 
         /// <summary>
-        /// Finalises the chain by execution the Action<>
+        /// Finalises the chain by execution the Action
         /// </summary>
         /// <returns></returns>
         public void Do()
