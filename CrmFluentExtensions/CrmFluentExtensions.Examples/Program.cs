@@ -92,6 +92,12 @@ namespace CrmFluentExtensions.Examples
                 .FirstOrDefault()
                 .Do();
 
+            //Validation
+            fluentService.CreateFluent(contact)
+                .MustBeNonNull(contact)
+                .Do();
+                
+
             Console.WriteLine("Retrieved Contact with name  = {0}", result["firstname"]);
             Console.ReadLine();
         }
