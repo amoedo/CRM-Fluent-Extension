@@ -6,7 +6,7 @@
     <title>Dynamics CRM Fluent Extensions</title>
     <authors>Marco Amoedo</authors>
     <owners>CrmFluentExtensions</owners>  
-    <projectUrl>https://github.com/amoedo/CRM-Fluent-Extension</projectUrl>
+    <projectUrl>http://amoedo.github.io/CRM-Fluent-Extension</projectUrl>
     <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
