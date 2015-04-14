@@ -380,9 +380,10 @@ namespace CrmFluentExtensions
                 for (var i = 0; i < values.Length; i++)
                 {
                     var item = values[i];
-                    if (item == null) throw new ArgumentNullException(
-                        string.Format("Parameter of Type {0} at index {1} is null", item.GetType(), i)
-                        );
+                    if (item == null)
+                    {
+                        throw new ArgumentNullException(string.Format("Parameter at index {0} is null", i));
+                    }
                 }
 
                 return action();
@@ -404,11 +405,8 @@ namespace CrmFluentExtensions
                     var item = values[i];
                     if (item == null || item.Equals(default(T)))
                     {
-                        throw new ArgumentNullException(
-                        string.Format("Parameter of Type {0} at index {1} is null or default", item.GetType(), i)
-                        );
+                        throw new ArgumentNullException(string.Format("Parameter at index {0} is null or default", i));
                     }
-
                 }
 
                 return action();
