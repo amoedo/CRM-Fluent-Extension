@@ -7,8 +7,8 @@
     <ProjectGuid>{6F5FE88D-71F0-407E-B382-1D7E64B66804}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CrmFluentExtensions.v9</RootNamespace>
-    <AssemblyName>CrmFluentExtensions.v9</AssemblyName>
+    <RootNamespace>CrmFluentExtensions</RootNamespace>
+    <AssemblyName>CrmFluentExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -28,6 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\CrmFluentExtensions.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">

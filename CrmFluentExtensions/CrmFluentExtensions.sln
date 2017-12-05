@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packaging", "Packaging", "{48C7B1E8-5083-4AA9-B52D-EC8B07FD10FE}"
 	ProjectSection(SolutionItems) = preProject
 		CrmFluentExtensions.2017.8.2.1.nuspec = CrmFluentExtensions.2017.8.2.1.nuspec
+		CrmFluentExtensions.2017.9.0.1.nuspec = CrmFluentExtensions.2017.9.0.1.nuspec
 		CrmFluentExtensions.nuspec = CrmFluentExtensions.nuspec
 	EndProjectSection
 EndProject
