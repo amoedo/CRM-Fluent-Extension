@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions", "CrmFluentExtensions\CrmFluentExtensions.csproj", "{CAE27B7A-03CF-49F9-ABB2-F6ECAB4765C2}"
 EndProject
@@ -13,8 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.2015", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packaging", "Packaging", "{48C7B1E8-5083-4AA9-B52D-EC8B07FD10FE}"
 	ProjectSection(SolutionItems) = preProject
+		CrmFluentExtensions.2017.8.2.1.nuspec = CrmFluentExtensions.2017.8.2.1.nuspec
 		CrmFluentExtensions.nuspec = CrmFluentExtensions.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.v9", "CrmFluentExtensions.v9\CrmFluentExtensions.v9.csproj", "{6F5FE88D-71F0-407E-B382-1D7E64B66804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmFluentExtensions.v8.2", "CrmFluentExtensions.v8.2\CrmFluentExtensions.v8.2.csproj", "{6FF97557-F721-46AA-96A1-567E2E80B47D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +35,7 @@ Global
 		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C880DEF-242B-41C9-A20A-34795FAF3B3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{656B123A-F559-4FA8-AEAF-BC52354028DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,6 +44,14 @@ Global
 		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBAAB01D-EEC2-41DE-8E8A-445A616206E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5FE88D-71F0-407E-B382-1D7E64B66804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5FE88D-71F0-407E-B382-1D7E64B66804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5FE88D-71F0-407E-B382-1D7E64B66804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5FE88D-71F0-407E-B382-1D7E64B66804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF97557-F721-46AA-96A1-567E2E80B47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF97557-F721-46AA-96A1-567E2E80B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF97557-F721-46AA-96A1-567E2E80B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF97557-F721-46AA-96A1-567E2E80B47D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

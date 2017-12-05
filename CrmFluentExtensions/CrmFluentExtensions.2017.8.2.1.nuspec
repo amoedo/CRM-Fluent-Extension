@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CrmFluentExtensions</id>
+    <version>2017.8.2.1</version>
+    <title>Dynamics CRM Fluent Extensions</title>
+    <authors>Marco Amoedo</authors>
+    <owners>CrmFluentExtensions</owners>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>http://amoedo.github.io/CRM-Fluent-Extension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A set of extension to the CRM SDK to enable a more fluent interface. Works with the v8.2 of SDKs</description>
+    <summary>A set of extension to the CRM SDK to enable a more fluent interface. Supports wrapping behaviours like Retry, Try Catch, Data Cache, etc.</summary>
+    <releaseNotes>
+      This package depends on the Microsoft.CrmSdk.CoreAssemblies
+
+      - 2017.8.2.1 - Compatible with CRM SDK v8.2
+      - 1.0.2 - Compatible with CRM 2011,2013 and 2015
+    </releaseNotes>
+    <tags>CRM Dynamics365 MSCRM Fluent</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="CrmFluentExtensions.v8.2\bin\Release\CrmFluentExtensions.XML" target="lib\CrmFluentExtensions.XML" />
+    <file src="CrmFluentExtensions.v8.2\bin\Release\CrmFluentExtensions.dll" target="lib\CrmFluentExtensions.dll" />
+  </files>
+</package>
